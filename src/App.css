@@ -1,38 +1,140 @@
-.App {
+
+.card-container.card {
+  max-width: 500px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: rgba(16, 2, 19, 0.788);
+  color: azure;
+  text-align:center;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  box-shadow:
+  inset 0 -3em 3em rgba(0,0,0,0.1),
+        0 0  0 2px rgb(90, 70, 70),
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+
+  
+}
+
+.izq {
+  margin-top: -50px;
+  position:fixed;
+  background-color: rgba(16, 2, 19, 0.788);
+  width: 210px;
+  height: 800px;
+
+}
+
+.item-le{
+  
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
   text-align: center;
+  font-size: 28px;
+  padding: 1px;
+
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.separation{
+  width: 86px;
+  height: 86px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgba(221, 159, 159, 0.062);
+  width: 150px;
+  height: 50px;
+  text-align:center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+  background-image:  url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
 }
 
-.App-link {
-  color: #61dafb;
+
+.buton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.buton span:after {
+content: '\00bb';  
+position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.buton:hover span {
+  padding-right: 25px;
+}
+.buton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgp{
+  width: 200px;
+  height: 96px;
+
 }
+
+.board{
+  background-color: azure;
+  text-align:center;
+}
+
+
+.profile{
+  position: relative;
+  top: -30px; 
+  left: 479px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  border:2px solid #fff;
+  display: block;
+  
+
+
+}
+
+.Slide{
+  text-align:center;
+  color: aliceblue;
+}
+
+
